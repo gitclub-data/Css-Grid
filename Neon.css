@@ -6,7 +6,7 @@ html,body{
 
 .Heading{
     display: block;
-    color: blueviolet;
+    color: linear-gradient(to right,transparent,blueviolet);
     background-color: black;
     height:4vh;
     text-align: center;
