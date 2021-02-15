@@ -6,18 +6,19 @@ html,body{
 
 .Heading{
     display: block;
-    color: linear-gradient(to right,transparent,blueviolet);
-    background-color: black;
-    height:4vh;
+    height:10vh;
     text-align: center;
-    font-size: 2rem;
     text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(230, 203, 203), rgb(111, 190, 75));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:0;
 }
 .buttons{
     margin: 0;
     padding: 0;
     width: 100%;
-    height:90vh;
+    height:86vh;
     display: flex;
     flex-wrap: wrap;
     background-color: black;
